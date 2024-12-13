@@ -24,8 +24,9 @@ The dataset used for this project is **Police Incident Data - 2024**, provided b
 ### Automation
 The pipeline is implemented using a Python script with the `Prefect` library, enabling task orchestration and automation. Each step of the pipeline is defined as a task within a `flow`.
 
-### Dashboard
+## Dashboard
 The dashboard is built using Streamlit to provide an interactive view of the processed data. Users can filter and visualize incidents based on date, location, and various classifications.
+**Link:** [Streamlit Dashboard](https://eiig26-prefect-etl-workflow-app-3o6t54.streamlit.app/)
 
 Dashboard Features
 - Date Filter: Filter incidents based on a specific date.

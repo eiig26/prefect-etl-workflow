@@ -75,7 +75,7 @@ fig_timeday_pie = px.pie(time_day_counts,
                           names='time_of_day',  
                           values='count',      
                           labels={'time_of_day': 'Hora del Día', 'count': 'Total de Incidentes'},
-                          title='Distribución de Incidentes por Hora del Día',
+                          title='Distribution of Incidents by Time of the day',
                           color_discrete_sequence=px.colors.qualitative.Set3) 
 st.plotly_chart(fig_timeday_pie)
 
